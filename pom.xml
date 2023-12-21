@@ -4,6 +4,7 @@
 	<groupId>HCLFramework</groupId>
 	<artifactId>HCLFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<dependencies>
 
 		<dependency>
@@ -149,6 +150,9 @@
 
 	</dependencies>
 	<build>
+
+		<finalName>docker-jenkin-integration</finalName>
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

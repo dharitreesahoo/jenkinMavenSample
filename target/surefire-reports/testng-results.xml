@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-20T13:01:44Z" name="Suite" finished-at="2023-12-20T13:01:47Z" duration-ms="3119">
+  <suite name="Suite" duration-ms="9089" started-at="2023-12-21T12:01:12Z" finished-at="2023-12-21T12:01:21Z">
     <groups>
     </groups>
-    <test started-at="2023-12-20T13:01:44Z" name="Test" finished-at="2023-12-20T13:01:47Z" duration-ms="3119">
+    <test name="Test" duration-ms="9089" started-at="2023-12-21T12:01:12Z" finished-at="2023-12-21T12:01:21Z">
       <class name="tests.LoginTest">
-        <test-method signature="test1()[pri:0, instance:tests.LoginTest@4148db48]" started-at="2023-12-20T13:01:44Z" name="test1" finished-at="2023-12-20T13:01:47Z" duration-ms="3107" status="PASS">
+        <test-method status="PASS" signature="test1()[pri:0, instance:tests.LoginTest@402f32ff]" name="test1" duration-ms="9054" started-at="2023-12-21T12:01:12Z" finished-at="2023-12-21T12:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
