@@ -1,4 +1,4 @@
-FROM openjdk
-COPY target/*.jar/
+FROM openjdk:8
 EXPOSE 8080
+COPY target/docker-jenkin-integration.jar docker-jenkin-integration.jar
 ENTRYPOINT ["java","-jar","/docker-jenkin-integration.jar"]
