@@ -21,6 +21,10 @@ public class actionsEx {
 	executor.executeScript("window.scrollBy(0,2000)", "");
 	
 	//clcik usiing javascript executor
+		//changed main to check git
+		Actions act = new Actions(driver);
+	act.sendKeys(Keys.ENTER).build().perform();
+		
 	}
 
 
