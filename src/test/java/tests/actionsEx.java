@@ -12,6 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class actionsEx {
 	@Test
+
 	public void test1(){
 	WebDriverManager.chromedriver().create();
 	WebDriver driver = new ChromeDriver();
@@ -19,6 +20,11 @@ public class actionsEx {
 	act.sendKeys(Keys.ENTER).build().perform();
 	JavascriptExecutor executor = (JavascriptExecutor)driver;
 	executor.executeScript("window.scrollBy(0,2000)", "");
+
+//code added for sample git comand
+	WebDriverManager.chromedriver().create();
+	WebDriver driver = new ChromeDriver();
+	Actions act = new Actions(driver);
 	
 	//clcik usiing javascript executor
 	}
